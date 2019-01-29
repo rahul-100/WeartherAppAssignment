@@ -1,0 +1,939 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08BDB895F17C2BE941CE18AE4EDEB543 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		11906218F90725F7ED5EC72505DEF967 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2705B8159DFB3FC9BB50BB3E183FEB30 /* SwiftyJSON-dummy.m */; };
+		1F7F8A2866CE99D8D91797317C26676F /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A43B2469AED96434BAA45A64F35A0C /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FACE80002AEDFB34563773621477612 /* Pods-WeartherAppAssignmentTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E661C37E1CC810547C2B875E7C8B57E /* Pods-WeartherAppAssignmentTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E7F5991505F83F5D1F054207B46E69A /* Pods-WeartherAppAssignment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F51B96834664C77312C599FEE1E1D9F /* Pods-WeartherAppAssignment-dummy.m */; };
+		5F4E519794B426B752B7812E6F7B2427 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473C83066AD5C33D62AB15261892E2F /* SwiftyJSON.swift */; };
+		8A3D5BF340B7ED58B1833D8DA85B5301 /* Pods-WeartherAppAssignmentUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF42DABA023ED58475ED1666CB86E86 /* Pods-WeartherAppAssignmentUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98691C1DAC96C5D061C8370F7A0CFAFA /* Pods-WeartherAppAssignmentUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D35A93271972F81BF6DA3F28933859 /* Pods-WeartherAppAssignmentUITests-dummy.m */; };
+		D7B118B8C885A341D424817874B93F82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		D8241B0B5F039557B4EFD78E8A836C1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		DCA39FA91C8E8C1517FA218FFDBFBADD /* Pods-WeartherAppAssignmentTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14859E83CF930A184B53EA7F93F9361A /* Pods-WeartherAppAssignmentTests-dummy.m */; };
+		ED73F5445188149A8D2B7671A674952B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F8CBBF917B9FBC8B565215AE9838C1EE /* Pods-WeartherAppAssignment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7CEFEB206A69D2B3AFD73478D108F31 /* Pods-WeartherAppAssignment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03B78B7EBBA14F168CD8FDDA2873C4CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B4BD7B8A4A2C3C1AE189F533D2C9EC2;
+			remoteInfo = SwiftyJSON;
+		};
+		044A9400ECBBE67ABE82A751B067AF29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CEBB9F1BCFB9ED65D4F329AB76FB346;
+			remoteInfo = "Pods-WeartherAppAssignment";
+		};
+		FF627954497F54B0836EFC1177161601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CEBB9F1BCFB9ED65D4F329AB76FB346;
+			remoteInfo = "Pods-WeartherAppAssignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B2EE0D761A61C6DA078D520A5492658 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		0E661C37E1CC810547C2B875E7C8B57E /* Pods-WeartherAppAssignmentTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeartherAppAssignmentTests-umbrella.h"; sourceTree = "<group>"; };
+		0F0AC5FD5EDE355E0A95D70F737D1BB4 /* Pods-WeartherAppAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeartherAppAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		14859E83CF930A184B53EA7F93F9361A /* Pods-WeartherAppAssignmentTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeartherAppAssignmentTests-dummy.m"; sourceTree = "<group>"; };
+		20A3F76CECE897C52C8814DC1AD1BBC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E63AC3009B7BD6BAE3F4A226E0FD73 /* Pods-WeartherAppAssignmentUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeartherAppAssignmentUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2705B8159DFB3FC9BB50BB3E183FEB30 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		2B195052E8C86C67DB3A0F1477721329 /* Pods-WeartherAppAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeartherAppAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CCD73E89563CFD0EFC293FF3EEEB69B /* Pods-WeartherAppAssignment-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeartherAppAssignment-acknowledgements.plist"; sourceTree = "<group>"; };
+		3399BA1E7A731663C089F4B6EE9E2A89 /* Pods-WeartherAppAssignmentTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeartherAppAssignmentTests.modulemap"; sourceTree = "<group>"; };
+		3813A5E9ED2FA2397730DABEFE1413C8 /* Pods_WeartherAppAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeartherAppAssignment.framework; path = "Pods-WeartherAppAssignment.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C039F53845A2FFD31B0906388C73AB9 /* Pods-WeartherAppAssignmentUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeartherAppAssignmentUITests.modulemap"; sourceTree = "<group>"; };
+		6035B132B157763DE0C1EBD872E93BCC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61129EF79D3B849199619382F851816C /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		61D9DAA7BCD245D7C0C9433F33963E91 /* Pods-WeartherAppAssignment-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeartherAppAssignment-resources.sh"; sourceTree = "<group>"; };
+		63B7A3ACC559F9909D4F8441BCDD4518 /* Pods_WeartherAppAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeartherAppAssignmentTests.framework; path = "Pods-WeartherAppAssignmentTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D35A93271972F81BF6DA3F28933859 /* Pods-WeartherAppAssignmentUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeartherAppAssignmentUITests-dummy.m"; sourceTree = "<group>"; };
+		67E34B69333C334EA1BABA221CE6749F /* Pods-WeartherAppAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeartherAppAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69843B13E56BAC960DC6E187640CF0AC /* Pods-WeartherAppAssignment-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeartherAppAssignment-frameworks.sh"; sourceTree = "<group>"; };
+		86CE7E03420D35D25C95062DE05EDDA8 /* Pods-WeartherAppAssignmentUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeartherAppAssignmentUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E72F42F8DF915CA33ECC3092511DD14 /* Pods-WeartherAppAssignmentTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeartherAppAssignmentTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A43B2469AED96434BAA45A64F35A0C /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		9F51B96834664C77312C599FEE1E1D9F /* Pods-WeartherAppAssignment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeartherAppAssignment-dummy.m"; sourceTree = "<group>"; };
+		A473C83066AD5C33D62AB15261892E2F /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		A7CEFEB206A69D2B3AFD73478D108F31 /* Pods-WeartherAppAssignment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeartherAppAssignment-umbrella.h"; sourceTree = "<group>"; };
+		A84964EBFCAD957E8AF82ADAB3C86A7C /* Pods_WeartherAppAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeartherAppAssignmentUITests.framework; path = "Pods-WeartherAppAssignmentUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30BB81D08794ACA3B4FB48CE75E0ABC /* Pods-WeartherAppAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeartherAppAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B60D7D243AB3389CE8E23A5F346665F0 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F3E566026850356C5A2F32ED3B47EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC10B26D8DAEA2A68FE04CD52F0BC380 /* Pods-WeartherAppAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeartherAppAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		C8BAAA6F73E2AB5F2CF1570CCBDB6EC4 /* Pods-WeartherAppAssignmentUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeartherAppAssignmentUITests-resources.sh"; sourceTree = "<group>"; };
+		C98C45F7B135CE9CF17923D4CFBD0827 /* Pods-WeartherAppAssignment-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeartherAppAssignment-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEF42DABA023ED58475ED1666CB86E86 /* Pods-WeartherAppAssignmentUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeartherAppAssignmentUITests-umbrella.h"; sourceTree = "<group>"; };
+		D09E2619811BA593AC6E7ECD3FD44784 /* Pods-WeartherAppAssignment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeartherAppAssignment.modulemap"; sourceTree = "<group>"; };
+		D5235BF8FCF0EB4EC8D6B410AC83F26D /* Pods-WeartherAppAssignmentTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeartherAppAssignmentTests-frameworks.sh"; sourceTree = "<group>"; };
+		E01A677B47239ADCD58938DED7447209 /* Pods-WeartherAppAssignmentTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeartherAppAssignmentTests-resources.sh"; sourceTree = "<group>"; };
+		E5263B171FBB6C413E846EDA7D6EBAD7 /* Pods-WeartherAppAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeartherAppAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		ED3E833B5A575F921CAF8815DA5C33BA /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		F9950C49B39D455FB68DC027EC6E4A9B /* Pods-WeartherAppAssignmentUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeartherAppAssignmentUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FA46DB453784C61DDBE90A2DBC5A4484 /* Pods-WeartherAppAssignmentTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeartherAppAssignmentTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEE7C315B9D9B07B0B1178FE8FDC916F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AC873528203233B4DB02B1FF5DB1E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B118B8C885A341D424817874B93F82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D732C923E24C84B084A20F7EDC9FFEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8241B0B5F039557B4EFD78E8A836C1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825B06C7D8B0A8F2D0FE1B59752FAB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BDB895F17C2BE941CE18AE4EDEB543 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D827BA574D296008883F8CA513D532F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED73F5445188149A8D2B7671A674952B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		196668CA5C7407C0223A3FA7E66F602F /* Pods-WeartherAppAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6035B132B157763DE0C1EBD872E93BCC /* Info.plist */,
+				3C039F53845A2FFD31B0906388C73AB9 /* Pods-WeartherAppAssignmentUITests.modulemap */,
+				22E63AC3009B7BD6BAE3F4A226E0FD73 /* Pods-WeartherAppAssignmentUITests-acknowledgements.markdown */,
+				86CE7E03420D35D25C95062DE05EDDA8 /* Pods-WeartherAppAssignmentUITests-acknowledgements.plist */,
+				64D35A93271972F81BF6DA3F28933859 /* Pods-WeartherAppAssignmentUITests-dummy.m */,
+				F9950C49B39D455FB68DC027EC6E4A9B /* Pods-WeartherAppAssignmentUITests-frameworks.sh */,
+				C8BAAA6F73E2AB5F2CF1570CCBDB6EC4 /* Pods-WeartherAppAssignmentUITests-resources.sh */,
+				CEF42DABA023ED58475ED1666CB86E86 /* Pods-WeartherAppAssignmentUITests-umbrella.h */,
+				2B195052E8C86C67DB3A0F1477721329 /* Pods-WeartherAppAssignmentUITests.debug.xcconfig */,
+				B30BB81D08794ACA3B4FB48CE75E0ABC /* Pods-WeartherAppAssignmentUITests.release.xcconfig */,
+			);
+			name = "Pods-WeartherAppAssignmentUITests";
+			path = "Target Support Files/Pods-WeartherAppAssignmentUITests";
+			sourceTree = "<group>";
+		};
+		2C6A71D462ED46C2A7F74D962134DC74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90FDB431AFF7929A76F4B9B696DE16CC /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		833B19BF60CD235B88844D53E121742F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3813A5E9ED2FA2397730DABEFE1413C8 /* Pods_WeartherAppAssignment.framework */,
+				63B7A3ACC559F9909D4F8441BCDD4518 /* Pods_WeartherAppAssignmentTests.framework */,
+				A84964EBFCAD957E8AF82ADAB3C86A7C /* Pods_WeartherAppAssignmentUITests.framework */,
+				B60D7D243AB3389CE8E23A5F346665F0 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90FDB431AFF7929A76F4B9B696DE16CC /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				A473C83066AD5C33D62AB15261892E2F /* SwiftyJSON.swift */,
+				9EB4895E7E458BDA746909CD3B2866F1 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9EB4895E7E458BDA746909CD3B2866F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20A3F76CECE897C52C8814DC1AD1BBC4 /* Info.plist */,
+				61129EF79D3B849199619382F851816C /* SwiftyJSON.modulemap */,
+				0B2EE0D761A61C6DA078D520A5492658 /* SwiftyJSON.xcconfig */,
+				2705B8159DFB3FC9BB50BB3E183FEB30 /* SwiftyJSON-dummy.m */,
+				ED3E833B5A575F921CAF8815DA5C33BA /* SwiftyJSON-prefix.pch */,
+				93A43B2469AED96434BAA45A64F35A0C /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		B0AC0298BC5E2D7DEB263E03A3D7F2C5 /* Pods-WeartherAppAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEE7C315B9D9B07B0B1178FE8FDC916F /* Info.plist */,
+				3399BA1E7A731663C089F4B6EE9E2A89 /* Pods-WeartherAppAssignmentTests.modulemap */,
+				8E72F42F8DF915CA33ECC3092511DD14 /* Pods-WeartherAppAssignmentTests-acknowledgements.markdown */,
+				FA46DB453784C61DDBE90A2DBC5A4484 /* Pods-WeartherAppAssignmentTests-acknowledgements.plist */,
+				14859E83CF930A184B53EA7F93F9361A /* Pods-WeartherAppAssignmentTests-dummy.m */,
+				D5235BF8FCF0EB4EC8D6B410AC83F26D /* Pods-WeartherAppAssignmentTests-frameworks.sh */,
+				E01A677B47239ADCD58938DED7447209 /* Pods-WeartherAppAssignmentTests-resources.sh */,
+				0E661C37E1CC810547C2B875E7C8B57E /* Pods-WeartherAppAssignmentTests-umbrella.h */,
+				67E34B69333C334EA1BABA221CE6749F /* Pods-WeartherAppAssignmentTests.debug.xcconfig */,
+				0F0AC5FD5EDE355E0A95D70F737D1BB4 /* Pods-WeartherAppAssignmentTests.release.xcconfig */,
+			);
+			name = "Pods-WeartherAppAssignmentTests";
+			path = "Target Support Files/Pods-WeartherAppAssignmentTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2C6A71D462ED46C2A7F74D962134DC74 /* Pods */,
+				833B19BF60CD235B88844D53E121742F /* Products */,
+				D5B15EA881A023647ECAC62F5AF50561 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5B15EA881A023647ECAC62F5AF50561 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA3A5E0F9E085725BB9DC79FF2AC70D1 /* Pods-WeartherAppAssignment */,
+				B0AC0298BC5E2D7DEB263E03A3D7F2C5 /* Pods-WeartherAppAssignmentTests */,
+				196668CA5C7407C0223A3FA7E66F602F /* Pods-WeartherAppAssignmentUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DA3A5E0F9E085725BB9DC79FF2AC70D1 /* Pods-WeartherAppAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				B9F3E566026850356C5A2F32ED3B47EF /* Info.plist */,
+				D09E2619811BA593AC6E7ECD3FD44784 /* Pods-WeartherAppAssignment.modulemap */,
+				C98C45F7B135CE9CF17923D4CFBD0827 /* Pods-WeartherAppAssignment-acknowledgements.markdown */,
+				2CCD73E89563CFD0EFC293FF3EEEB69B /* Pods-WeartherAppAssignment-acknowledgements.plist */,
+				9F51B96834664C77312C599FEE1E1D9F /* Pods-WeartherAppAssignment-dummy.m */,
+				69843B13E56BAC960DC6E187640CF0AC /* Pods-WeartherAppAssignment-frameworks.sh */,
+				61D9DAA7BCD245D7C0C9433F33963E91 /* Pods-WeartherAppAssignment-resources.sh */,
+				A7CEFEB206A69D2B3AFD73478D108F31 /* Pods-WeartherAppAssignment-umbrella.h */,
+				E5263B171FBB6C413E846EDA7D6EBAD7 /* Pods-WeartherAppAssignment.debug.xcconfig */,
+				BC10B26D8DAEA2A68FE04CD52F0BC380 /* Pods-WeartherAppAssignment.release.xcconfig */,
+			);
+			name = "Pods-WeartherAppAssignment";
+			path = "Target Support Files/Pods-WeartherAppAssignment";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		45C087D8C9C47CEC1D00F567889B182D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3D5BF340B7ED58B1833D8DA85B5301 /* Pods-WeartherAppAssignmentUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F18012EE743B4C7C1C769DAF3D98A7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7F8A2866CE99D8D91797317C26676F /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E2DC6D5D315A4E9E2500525C1F333B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CBBF917B9FBC8B565215AE9838C1EE /* Pods-WeartherAppAssignment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89EF227356EA7248BC04C431CCBCEDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FACE80002AEDFB34563773621477612 /* Pods-WeartherAppAssignmentTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4CEBB9F1BCFB9ED65D4F329AB76FB346 /* Pods-WeartherAppAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B5491B812C92038E23B6118F3920AE /* Build configuration list for PBXNativeTarget "Pods-WeartherAppAssignment" */;
+			buildPhases = (
+				B7E2DC6D5D315A4E9E2500525C1F333B /* Headers */,
+				9BBC99DF41C2063A4BC8D85A54CDEE3D /* Sources */,
+				825B06C7D8B0A8F2D0FE1B59752FAB2D /* Frameworks */,
+				5199D880CCC4037E5D9AB3E61C4D5F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99FD5E525EABECAE60A77E2B78CAB6B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeartherAppAssignment";
+			productName = "Pods-WeartherAppAssignment";
+			productReference = 3813A5E9ED2FA2397730DABEFE1413C8 /* Pods_WeartherAppAssignment.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B4BD7B8A4A2C3C1AE189F533D2C9EC2 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD890BD53669FD2EA4227567C9C495D /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				5F18012EE743B4C7C1C769DAF3D98A7C /* Headers */,
+				E64C409B59A1EA33D49EAD8EE0B64AD4 /* Sources */,
+				D827BA574D296008883F8CA513D532F5 /* Frameworks */,
+				946A17FF7D6428341A72C84DD2E21F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = B60D7D243AB3389CE8E23A5F346665F0 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C05300C600DFF485DC2BA7179F2E73FA /* Pods-WeartherAppAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B28A64F1E2C85844CEA4F0BE1C8720 /* Build configuration list for PBXNativeTarget "Pods-WeartherAppAssignmentUITests" */;
+			buildPhases = (
+				45C087D8C9C47CEC1D00F567889B182D /* Headers */,
+				2CF5B0E2E3FCF8C0F2E42C0CD757E0C5 /* Sources */,
+				2AC873528203233B4DB02B1FF5DB1E79 /* Frameworks */,
+				EE803718BC8EEEB5783D10ACF53A992D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9BAF598DA56707DE8209DAD173760A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeartherAppAssignmentUITests";
+			productName = "Pods-WeartherAppAssignmentUITests";
+			productReference = A84964EBFCAD957E8AF82ADAB3C86A7C /* Pods_WeartherAppAssignmentUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E94B6CC410C78CB67064E8E9050B2412 /* Pods-WeartherAppAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F521D40D2B45E8B31F6124A0E6F6BB /* Build configuration list for PBXNativeTarget "Pods-WeartherAppAssignmentTests" */;
+			buildPhases = (
+				B89EF227356EA7248BC04C431CCBCEDE /* Headers */,
+				7372D86F17643DB9E7F6C5EA5BF7B72E /* Sources */,
+				4D732C923E24C84B084A20F7EDC9FFEA /* Frameworks */,
+				0B706B15D5AFAB055B6493CE80692EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				125C9414109944C4479111CC2902252C /* PBXTargetDependency */,
+			);
+			name = "Pods-WeartherAppAssignmentTests";
+			productName = "Pods-WeartherAppAssignmentTests";
+			productReference = 63B7A3ACC559F9909D4F8441BCDD4518 /* Pods_WeartherAppAssignmentTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 833B19BF60CD235B88844D53E121742F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CEBB9F1BCFB9ED65D4F329AB76FB346 /* Pods-WeartherAppAssignment */,
+				E94B6CC410C78CB67064E8E9050B2412 /* Pods-WeartherAppAssignmentTests */,
+				C05300C600DFF485DC2BA7179F2E73FA /* Pods-WeartherAppAssignmentUITests */,
+				7B4BD7B8A4A2C3C1AE189F533D2C9EC2 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B706B15D5AFAB055B6493CE80692EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5199D880CCC4037E5D9AB3E61C4D5F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946A17FF7D6428341A72C84DD2E21F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE803718BC8EEEB5783D10ACF53A992D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CF5B0E2E3FCF8C0F2E42C0CD757E0C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98691C1DAC96C5D061C8370F7A0CFAFA /* Pods-WeartherAppAssignmentUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7372D86F17643DB9E7F6C5EA5BF7B72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA39FA91C8E8C1517FA218FFDBFBADD /* Pods-WeartherAppAssignmentTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBC99DF41C2063A4BC8D85A54CDEE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7F5991505F83F5D1F054207B46E69A /* Pods-WeartherAppAssignment-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64C409B59A1EA33D49EAD8EE0B64AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11906218F90725F7ED5EC72505DEF967 /* SwiftyJSON-dummy.m in Sources */,
+				5F4E519794B426B752B7812E6F7B2427 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		125C9414109944C4479111CC2902252C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WeartherAppAssignment";
+			target = 4CEBB9F1BCFB9ED65D4F329AB76FB346 /* Pods-WeartherAppAssignment */;
+			targetProxy = FF627954497F54B0836EFC1177161601 /* PBXContainerItemProxy */;
+		};
+		99FD5E525EABECAE60A77E2B78CAB6B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 7B4BD7B8A4A2C3C1AE189F533D2C9EC2 /* SwiftyJSON */;
+			targetProxy = 03B78B7EBBA14F168CD8FDDA2873C4CF /* PBXContainerItemProxy */;
+		};
+		E9BAF598DA56707DE8209DAD173760A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WeartherAppAssignment";
+			target = 4CEBB9F1BCFB9ED65D4F329AB76FB346 /* Pods-WeartherAppAssignment */;
+			targetProxy = 044A9400ECBBE67ABE82A751B067AF29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1807B4F990E7BDC5A00881D02C057857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC10B26D8DAEA2A68FE04CD52F0BC380 /* Pods-WeartherAppAssignment.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeartherAppAssignment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeartherAppAssignment/Pods-WeartherAppAssignment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BFE924E5AA6F2B8C4C9159FC4F3BB45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F0AC5FD5EDE355E0A95D70F737D1BB4 /* Pods-WeartherAppAssignmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeartherAppAssignmentTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeartherAppAssignmentTests/Pods-WeartherAppAssignmentTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27D5D4AD0342028C199078E14D9543D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B2EE0D761A61C6DA078D520A5492658 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DA06BC9BA08B94C1D66D2E35DE502E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5263B171FBB6C413E846EDA7D6EBAD7 /* Pods-WeartherAppAssignment.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeartherAppAssignment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeartherAppAssignment/Pods-WeartherAppAssignment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3073E9329E3D859060CB4B679A6C557C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4DE7C929F57CFB7213E5E54E324B30CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30BB81D08794ACA3B4FB48CE75E0ABC /* Pods-WeartherAppAssignmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeartherAppAssignmentUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeartherAppAssignmentUITests/Pods-WeartherAppAssignmentUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C76B561F9CFFBFCA19AB4D9EFECAB9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B2EE0D761A61C6DA078D520A5492658 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E728C0BD3857BC99A5D2AD6ACDFBA09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F08AE491B3AFBFF505384DC51323DC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E34B69333C334EA1BABA221CE6749F /* Pods-WeartherAppAssignmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeartherAppAssignmentTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeartherAppAssignmentTests/Pods-WeartherAppAssignmentTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAFF4C8DC282A343FE4B36D63AEB1D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B195052E8C86C67DB3A0F1477721329 /* Pods-WeartherAppAssignmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeartherAppAssignmentUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeartherAppAssignmentUITests/Pods-WeartherAppAssignmentUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10F521D40D2B45E8B31F6124A0E6F6BB /* Build configuration list for PBXNativeTarget "Pods-WeartherAppAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08AE491B3AFBFF505384DC51323DC0B /* Debug */,
+				1BFE924E5AA6F2B8C4C9159FC4F3BB45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16B28A64F1E2C85844CEA4F0BE1C8720 /* Build configuration list for PBXNativeTarget "Pods-WeartherAppAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFF4C8DC282A343FE4B36D63AEB1D54 /* Debug */,
+				4DE7C929F57CFB7213E5E54E324B30CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E728C0BD3857BC99A5D2AD6ACDFBA09A /* Debug */,
+				3073E9329E3D859060CB4B679A6C557C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B5491B812C92038E23B6118F3920AE /* Build configuration list for PBXNativeTarget "Pods-WeartherAppAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA06BC9BA08B94C1D66D2E35DE502E1 /* Debug */,
+				1807B4F990E7BDC5A00881D02C057857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD890BD53669FD2EA4227567C9C495D /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D5D4AD0342028C199078E14D9543D8 /* Debug */,
+				C76B561F9CFFBFCA19AB4D9EFECAB9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
